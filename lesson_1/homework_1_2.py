@@ -1,7 +1,11 @@
 # Find the second power of a variable. Save the expression to result_1 variable
 
 a = 10
-result_1 = 10 ** 2
+result_0 = 10 ** 2
+print(result_0)
+
+a = 10
+result_1 = pow(a, 2)
 print(result_1)
 
 
