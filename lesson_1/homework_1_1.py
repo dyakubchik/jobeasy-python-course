@@ -47,7 +47,7 @@ print(result_division_floored)
 k = 10
 l = 15
 result_division_remainder = k % l
-print(result_division_remainder)
+print(type(result_division_remainder))
 
 
 # Rise m to the power n. Save the expression to the result_power variable
