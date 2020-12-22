@@ -5,8 +5,16 @@
 # If number is  greater than 15 and less than or equal to 20, save the number raised to the power 3 to result_1
 # Else save the text "Wrong value" to result_1
 
-number = None
-result_1 = None
+import math
+
+number = 19
+if number > 0 and number <= 7:
+    result_1 = number * 10
+elif number > 7 and number <= 15:
+    result_1 = number // 3
+elif number > 15 and number <= 20:
+    result_1 = number ** 3
+print(int(result_1))
 
 
 # Enter two numbers between 1 and 10, save this values to number_1 variable and number_2 variables.
